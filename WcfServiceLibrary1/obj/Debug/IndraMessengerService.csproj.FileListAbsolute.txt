@@ -1,0 +1,8 @@
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\bin\Debug\MessengerSharedLibrary.dll
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\bin\Debug\MessengerSharedLibrary.pdb
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+D:\Progetti\IndraMessenger\Main\IndraMessenger\WcfServiceLibrary1\obj\Debug\IndraMessengerService.csprojResolveAssemblyReference.cache

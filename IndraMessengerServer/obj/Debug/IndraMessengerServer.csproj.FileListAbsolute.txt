@@ -1,0 +1,8 @@
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\bin\Debug\IndraMessengerServer.exe.config
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\bin\Debug\IndraMessengerServer.exe
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\bin\Debug\IndraMessengerServer.pdb
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\bin\Debug\MessengerSharedLibrary.dll
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\bin\Debug\MessengerSharedLibrary.pdb
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\obj\Debug\IndraMessengerServer.csprojResolveAssemblyReference.cache
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\obj\Debug\IndraMessengerServer.exe
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerServer\obj\Debug\IndraMessengerServer.pdb

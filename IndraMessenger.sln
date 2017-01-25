@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndraMessengerClient", "IndraMessengerClient\IndraMessengerClient.csproj", "{97EDCE6F-338B-43ED-B984-077DFD0C68D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{967445C3-35EF-4922-9A95-68921F04CDA2} = {967445C3-35EF-4922-9A95-68921F04CDA2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerSharedLibrary", "MessengerSharedLibrary\MessengerSharedLibrary.csproj", "{A59B730E-26D9-438A-A1AD-D9A7C24CF8D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndraMessengerService", "WcfServiceLibrary1\IndraMessengerService.csproj", "{967445C3-35EF-4922-9A95-68921F04CDA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EDCE6F-338B-43ED-B984-077DFD0C68D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EDCE6F-338B-43ED-B984-077DFD0C68D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EDCE6F-338B-43ED-B984-077DFD0C68D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EDCE6F-338B-43ED-B984-077DFD0C68D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59B730E-26D9-438A-A1AD-D9A7C24CF8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59B730E-26D9-438A-A1AD-D9A7C24CF8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59B730E-26D9-438A-A1AD-D9A7C24CF8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59B730E-26D9-438A-A1AD-D9A7C24CF8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967445C3-35EF-4922-9A95-68921F04CDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967445C3-35EF-4922-9A95-68921F04CDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967445C3-35EF-4922-9A95-68921F04CDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967445C3-35EF-4922-9A95-68921F04CDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mephit84.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IndraMessengerClient\\IndraMessengerClient.csproj
+		SccProjectName1 = IndraMessengerClient
+		SccLocalPath1 = IndraMessengerClient
+		SccProjectUniqueName2 = MessengerSharedLibrary\\MessengerSharedLibrary.csproj
+		SccProjectName2 = MessengerSharedLibrary
+		SccLocalPath2 = MessengerSharedLibrary
+		SccProjectUniqueName3 = WcfServiceLibrary1\\IndraMessengerService.csproj
+		SccProjectName3 = WcfServiceLibrary1
+		SccLocalPath3 = WcfServiceLibrary1
+	EndGlobalSection
+EndGlobal

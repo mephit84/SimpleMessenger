@@ -1,0 +1,17 @@
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\bin\Debug\IndraMessengerClient.exe.config
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\bin\Debug\IndraMessengerClient.exe
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\bin\Debug\IndraMessengerClient.pdb
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.csprojResolveAssemblyReference.cache
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\MainWindow.g.cs
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\App.g.cs
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient_MarkupCompile.cache
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient_MarkupCompile.lref
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\MainWindow.baml
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.g.resources
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.Properties.Resources.resources
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.csproj.GenerateResource.Cache
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.exe
+D:\Progetti\IndraMessenger\Main\IndraMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.pdb
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\IndraMessengerClient\bin\Debug\IndraMessengerClient.exe.config
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.exe
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\IndraMessengerClient\obj\Debug\IndraMessengerClient.pdb

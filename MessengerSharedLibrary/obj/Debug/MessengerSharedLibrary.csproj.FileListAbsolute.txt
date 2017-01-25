@@ -1,0 +1,5 @@
+D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\bin\Debug\MessengerSharedLibrary.dll
+D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\bin\Debug\MessengerSharedLibrary.pdb
+D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.csprojResolveAssemblyReference.cache
+D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.dll
+D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.pdb
