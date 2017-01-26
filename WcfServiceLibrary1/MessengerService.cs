@@ -9,23 +9,19 @@ namespace IndraMessengerService
 {
     class MessengerService : IMessengerService
     {
-        private List<User> _AuthorizedUsers;
-        private List<User> _LoggedUsers;
-        private List<Message> _Messaggi;
+        private static List<User> _AuthorizedUsers = GetAuthorizedUsers();
+        private static List<User> _LoggedUsers = new List<User>();
+        private static List<Message> _Messaggi = new List<Message>();
 
         public MessengerService()
         {
-            _Messaggi = new List<Message>() ;
-            _LoggedUsers = new List<User>();
-
-            _AuthorizedUsers = GetAuthorizedUsers();
         }
 
         /// <summary>
         /// Restituisce una lista di utenti autorizzati
         /// </summary>
         /// <returns></returns>
-        private List<User> GetAuthorizedUsers()
+        private static List<User> GetAuthorizedUsers()
         {
             List<User> lista = new List<User>();
             User Andrea = new User();
@@ -79,14 +75,22 @@ namespace IndraMessengerService
 
             List<Message> MessageUser = new List<Message>();
             //throw new NotImplementedException();
-            for (int i=0; i<_Messaggi.Count; i++)
-            {
-                if ((_Messaggi.ElementAt(i).To==(user)))
-                {
-                    ///MessageUser.ElementAt(i) = _Messaggi.ElementAt(i);
-                }
+            //for (int i=0; i<_Messaggi.Count; i++)
+            //{
+            //    if ((_Messaggi.ElementAt(i).To==(user)))
+            //    {
+            //        ///MessageUser.ElementAt(i) = _Messaggi.ElementAt(i);
+            //    }
 
+            //}
+
+            foreach(var messaggio in _Messaggi)
+            {
+                if (messaggio.To.Equals(user))
+                    MessageUser.Add(messaggio);
+              
             }
+            
 
             return MessageUser;
         }
@@ -103,6 +107,10 @@ namespace IndraMessengerService
             {
                 if(utente.Username.ToUpper()==username.ToUpper())
                 {
+                    if (!(_LoggedUsers.Contains(utente)))
+                        _LoggedUsers.Add(utente);
+                       
+
                     return utente;
                 }
             }
@@ -129,18 +137,7 @@ namespace IndraMessengerService
         /// <returns></returns>
         public List<User> GetUtentiLoggati()
         { 
-            //throw new NotImplementedException();
-            List<User> Loggati = new List<User>();
-
-            //list User =    Login(string username)r 
-              
-            foreach (var item in _LoggedUsers)
-            {
-                
-                    Loggati.Add(item);                    
-
-            }
-            return Loggati;
+            return _LoggedUsers;
         }
     }
 }

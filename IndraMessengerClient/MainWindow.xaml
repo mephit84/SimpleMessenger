@@ -9,16 +9,28 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="257*"/>
-            <ColumnDefinition Width="260*"/>
+            <ColumnDefinition Width="134*"/>
+            <ColumnDefinition Width="126*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
-            <RowDefinition Height="8*"/>
+            <RowDefinition Height="87*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="144*"/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="loginTextbox" HorizontalAlignment="Center" Height="24" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
-        <Button x:Name="loginButton" Content="Login" Grid.Column="1" Width="100" Height="30" Click="loginButton_Click"/>
-        <Label x:Name="ErrLabel" Content="" HorizontalAlignment="Left" Margin="87,59,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <Label x:Name="datadinascita" Content="Data di nascita" Grid.Column="1" HorizontalAlignment="Left" Height="42" Margin="58,43,0,0" Grid.Row="1" VerticalAlignment="Top" Width="143"/>
-        <Label x:Name="email" Content="mail" HorizontalAlignment="Left" Height="38" Margin="97,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="loginTextbox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120" />
+        <Button x:Name="loginButton" Content="Login" Grid.Column="1" Click="loginButton_Click" Margin="80,28,80,29" Grid.ColumnSpan="2"/>
+        <Label x:Name="ErrLabel" Content="" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Margin="124,0,123,0" Height="25" Width="10" />
+        <Label x:Name="datadinascita" Content="Data di nascita" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" />
+        <Label x:Name="email" Content="mail" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"  Grid.Column="1" />
+        <ListBox x:Name="listaUtentiLoggati" DisplayMemberPath="Username" Margin="10" Grid.Row="2" Grid.RowSpan="2"></ListBox>
+        <ScrollViewer Grid.ColumnSpan="2" Margin="10" Grid.Column="1"  Grid.Row="2">
+            <TextBlock x:Name="messaggi" Height="110" Width="240"/>
+        </ScrollViewer>
+        <TextBox x:Name="textBoxMessage" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="8,5,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
+        <Button x:Name="sendButton" Grid.ColumnSpan="2" Content="invia" Grid.Column="1" HorizontalAlignment="Stretch"  Margin="10" Grid.Row="4" VerticalAlignment="Stretch" Click="sendButton_Click" />
+        <Button x:Name="recuperaUtentiButton" Content="Recupera Utenti" HorizontalAlignment="Stretch"  Margin="10" Grid.Row="4" VerticalAlignment="Stretch" Click="recuperaUtentiButton_Click"  />
+
     </Grid>
 </Window>

@@ -16,5 +16,23 @@ namespace MessengerSharedLibrary.Common
         public DateTime DataDiNascita { get; set; }
         [DataMember]
         public string Email { get; set; }
+        public override bool Equals(object obj)
+        {
+            if (obj is User)
+            {
+                return ((User)obj).Username == this.Username;
+            }
+            else
+                return false;
+
+            //return base.Equals(obj);
+        }
+
+        public override string ToString()
+        {
+            return Username;
+
+        }
+
     }
 }
