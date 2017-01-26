@@ -3,3 +3,8 @@ D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\bin\Debug\
 D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.csprojResolveAssemblyReference.cache
 D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.dll
 D:\Progetti\IndraMessenger\Main\IndraMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.pdb
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\MessengerSharedLibrary\bin\Debug\MessengerSharedLibrary.dll
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\MessengerSharedLibrary\bin\Debug\MessengerSharedLibrary.pdb
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.csprojResolveAssemblyReference.cache
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.dll
+C:\Users\vpietrantoni\Source\Repos\SimpleMessenger\MessengerSharedLibrary\obj\Debug\MessengerSharedLibrary.pdb

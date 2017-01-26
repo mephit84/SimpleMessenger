@@ -29,8 +29,21 @@ namespace IndraMessengerService
         {
             List<User> lista = new List<User>();
             User Andrea = new User();
+            Andrea.Username = "Andrea";
+            Andrea.DataDiNascita = DateTime.Today.AddDays(-1);
+            Andrea.Email = "Andrea@email.it";
+
             User Giuseppe = new User();
             User Flavio = new User();
+
+
+            Giuseppe.Username = "Giuseppe";
+            Giuseppe.DataDiNascita = DateTime.Today.AddDays(-1);
+            Giuseppe.Email = "Giuseppe@email.it";
+
+            Flavio.Username = "Flavio";
+            Flavio.DataDiNascita = DateTime.Today.AddDays(-1);
+            Flavio.Email = "Flavio@email.it";
 
             lista.Add(Andrea);
             lista.Add(Giuseppe);
