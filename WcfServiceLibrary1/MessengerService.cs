@@ -99,7 +99,13 @@ namespace IndraMessengerService
         /// <returns>Ritorna l'utente se trovato, null altrimenti</returns>
         public User Login(string username)
         {
-
+            foreach (User utente in _AuthorizedUsers)
+            {
+                if(utente.Username.ToUpper()==username.ToUpper())
+                {
+                    return utente;
+                }
+            }
             //ritorna la l'utente cercandolo nella lista degli utenti autorizzati  (_AuthorizedUsers)
 
 

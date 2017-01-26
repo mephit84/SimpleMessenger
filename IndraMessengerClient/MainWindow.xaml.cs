@@ -88,6 +88,11 @@ namespace IndraMessengerClient
             {
                 ErrLabel.Content = "Utente non autorizzato"; 
             }
+            else
+            {
+                email.Content = utente.Email;
+                datadinascita.Content = utente.DataDiNascita;
+            }
         }
     }
 }
